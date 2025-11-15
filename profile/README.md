@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/snath-ai/.github/main/assets/snath-logo.png" width="120" alt="Snath.ai Logo" />
 </p>
 
-<h1 align="center">Snath.ai</h1>
+<h1 align="center">Snath.ai™</h1>
 <p align="center"><em>A transparent, auditable, and production‑ready framework for building modern AI systems.</em></p>
 
 <p align="center">
@@ -24,9 +24,9 @@
 
 # Introduction
 
-Snath.ai is built on a simple belief: modern AI systems should not be opaque, unpredictable, or impossible to audit. They should be reliable, inspectable, and engineered with the same rigor expected from production‑grade software systems.
+Snath.ai™ is built on a simple belief: modern AI systems should not be opaque, unpredictable, or impossible to audit. They should be reliable, inspectable, and engineered with the same rigor expected from production‑grade software systems.
 
-To achieve this, Snath.ai introduces the **Lár Engine**, a minimal and deterministic execution engine for building and orchestrating AI agents and pipelines. Lár provides full transparency into the execution process, enabling developers to deploy AI systems that behave consistently and can be traced and audited in detail.
+To achieve this, Snath.ai™ introduces the **Lár Engine**, a minimal and deterministic execution engine for building and orchestrating AI agents and pipelines. Lár provides full transparency into the execution process, enabling developers to deploy AI systems that behave consistently and can be traced and audited in detail.
 
 ---
 
@@ -34,7 +34,7 @@ To achieve this, Snath.ai introduces the **Lár Engine**, a minimal and determin
 
 Most current agent frameworks operate as black boxes. When failures occur, debugging becomes guesswork and system reliability suffers. The lack of visibility makes it difficult for engineering teams to trust these frameworks in critical production environments.
 
-Snath.ai aims to solve this by providing a **glass‑box alternative**—a framework where every step, mutation, and decision is traceable.
+Snath.ai™ aims to solve this by providing a **glass‑box alternative**—a framework where every step, mutation, and decision is traceable.
 
 ---
 
@@ -43,12 +43,11 @@ Snath.ai aims to solve this by providing a **glass‑box alternative**—a frame
   <img src="https://raw.githubusercontent.com/snath-ai/.github/main/assets/lar-logo.png" width="80" alt="Lár Logo" />
 </p>
 
----
 
 # The Lár Engine (Open Source)
 
 
-Lár is the lightweight, open‑source engine that powers all Snath.ai agents. It embraces a deterministic, define‑by‑run design philosophy that emphasizes clarity and reliability.
+Lár is the lightweight, open‑source engine that powers all Snath.ai™ agents. It embraces a deterministic, define‑by‑run design philosophy that emphasizes clarity and reliability.
 
 ## Key Characteristics
 
@@ -74,7 +73,7 @@ pip install lar-engine
 
 # Demonstration Applications
 
-Snath.ai provides a set of demonstration applications that showcase the practical capabilities of the Lár Engine.
+Snath.ai™ provides a set of demonstration applications that showcase the practical capabilities of the Lár Engine.
 
 ### Retrieval‑Augmented Generation (RAG) Demonstration  
 A fully transparent RAG pipeline featuring FAISS retrieval, a critique‑improve loop, and consistent, repeatable execution.
@@ -86,9 +85,9 @@ These demonstrations highlight how deterministic orchestration improves reliabil
 
 ---
 
-# Snath.ai Platform (Commercial)
+# Snath.ai™ Platform (Commercial)
 
-The Snath.ai commercial platform extends the open‑source Lár Engine with enterprise‑grade capabilities for deployment, monitoring, and operational management of agent‑based systems.
+The Snath.ai™ commercial platform extends the open‑source Lár Engine with enterprise‑grade capabilities for deployment, monitoring, and operational management of agent‑based systems.
 
 ## Platform Components
 
@@ -104,16 +103,11 @@ The Snath.ai commercial platform extends the open‑source Lár Engine with ente
 - **Production‑Ready Orchestration**  
   Scalable infrastructure built to support thousands of concurrent agent tasks.
 
-### Internal Services (Private Repositories)
-
-- **snath-app** — React/Vite‑based frontend for the Snath.ai platform  
-- **snath-api** — FastAPI backend integrating the Lár Engine at scale
-
 ---
 
 # Vision
 
-Snath.ai aims to become the industry standard for transparent, deterministic, and production‑focused AI systems.  
+Snath.ai™ aims to become the industry standard for transparent, deterministic, and production‑focused AI systems.  
 By eliminating black‑box abstractions, we enable developers to build systems they can understand, verify, and trust.
 
 For updates, follow us on LinkedIn and star our repositories to support the mission.
