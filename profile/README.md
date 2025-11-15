@@ -23,7 +23,7 @@
 
 Snath.ai™ is built on a simple belief: modern AI systems should not be opaque, unpredictable, or impossible to audit. They should be reliable, inspectable, and engineered with the same rigor expected from production‑grade software systems.
 
-To achieve this, Snath.ai™ introduces the **Lár Engine**, a minimal and deterministic execution engine for building and orchestrating AI agents and pipelines. Lár provides full transparency into the execution process, enabling developers to deploy AI systems that behave consistently and can be traced and audited in detail.
+To achieve this, Snath.ai™ introduces the **[Lár Engine](https://github.com/snath-ai/lar)**, a minimal and deterministic execution engine for building and orchestrating AI agents and pipelines. Lár provides full transparency into the execution process, enabling developers to deploy AI systems that behave consistently and can be traced and audited in detail.
 
 ---
 
