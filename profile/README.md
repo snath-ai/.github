@@ -42,6 +42,7 @@ Snath.ai aims to solve this by providing a **glass‑box alternative**—a frame
 <p align="center">
   <img src="https://raw.githubusercontent.com/snath-ai/.github/main/assets/lar-logo.png" width="80" alt="Lár Logo" />
 </p>
+
 ---
 
 # The Lár Engine (Open Source)
