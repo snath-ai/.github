@@ -7,7 +7,7 @@ It's the first thing developers will see when they visit https://www.google.com/
 
 <p align="center">
 <!-- This points to the logo you just added to the 'assets' folder -->
-<img src="https://github.com/snath-ai/.github/assets/snath-logo.png" width="120" alt="Snath.ai Logo">
+<img src="assets/report_screenshot.png>
 <h1 align="center">Welcome to Snath.ai</h1>
 <p align="center">
 <b>We're building the "Glass Box" platform for AI you can actually trust.</b>
