@@ -1,35 +1,10 @@
-<!--
-This is the "shop window" for your entire Snath.ai company.
-It's the first thing developers will see when they visit https://www.google.com/url?sa=E&source=gmail&q=github.com/snath-ai.
--->
+<!-- 1. The Header: Snath.ai Logo, Name, and Slogan -->
 
-<!-- 1. The Header & Slogan -->
+<p align="center"> <img src="https://raw.githubusercontent.com/snath-ai/.github/main/assets/snath-logo.png" width="120" alt="Snath.ai Logo"> <h1 align="center">Welcome to Snath.ai</h1> <p align="center"> <b>We're building the "Glass Box" platform for AI you can actually trust.</b> </p> </p>
 
-<p align="center">
-<!-- This points to the logo you just added to the 'assets' folder -->
-<img src="assets/report_screenshot.png>
-<h1 align="center">Welcome to Snath.ai</h1>
-<p align="center">
-<b>We're building the "Glass Box" platform for AI you can actually trust.</b>
-</p>
-</p>
+<!-- 2. The Badges: Your Social Proof (All links are updated) -->
 
-<!-- 2. The "Small Buttons" (Badges) - Your Social Proof -->
-
-<p align="center">
-<a href="https://www.google.com/search?q=https://pypi.org/project/lar-engine/">
-<img alt="PyPI - Version" src="https://www.google.com/search?q=https://img.shields.io/pypi/v/lar-engine%3Fstyle%3Dfor-the-badge%26color%3Dblue">
-</a>
-<a href="https://www.google.com/search?q=https://pypi.org/project/lar-engine/">
-<img alt="PyPI - Downloads" src="https://www.google.com/search?q=https://img.shields.io/pypi/dm/lar-engine%3Fstyle%3Dfor-the-badge%26color%3Dblueviolet">
-</a>
-<a href="https://www.google.com/search?q=https://github.com/snath-ai/lar/blob/main/LICENSE">
-<img alt="PyPI - License" src="https://www.google.com/search?q=https://img.shields.io/pypi/l/lar-engine%3Fstyle%3Dfor-the-badge%26color%3Dgreen">
-</a>
-<a href="https://www.google.com/search?q=https://twitter.com/snathai"> <!-- TODO: Make sure you've registered @snathai on Twitter/X -->
-<img alt="Follow on X" src="https://www.google.com/search?q=https://img.shields.io/twitter/follow/snathai%3Fstyle%3Dfor-the-badge%26logo%3Dx">
-</a>
-</p>
+<p align="center"> <a href="https://pypi.org/project/lar-engine/"> <img alt="PyPI - Version" src="https://img.shields.io/pypi/v/lar-engine?style=for-the-badge&color=blue"> </a> <a href="https://pypi.org/project/lar-engine/"> <img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/lar-engine?style=for-the-badge&color=blueviolet"> </a> <a href="https://github.com/snath-ai/lar/blob/main/LICENSE"> <img alt="GitHub - License" src="https://img.shields.io/github/license/snath-ai/lar?style=for-the-badge&color=green"> </a> <a href="https://www.linkedin.com/company/snathai/"> <img alt="Follow on LinkedIn" src="https://img.shields.io/badge/LinkedIn-snathai-0077B5?style=for-the-badge&logo=linkedin"> </a> </p>
 
 Our Philosophy: The "Glass Box" vs. The "Black Box"
 
@@ -55,9 +30,17 @@ We're building the future of reliable AI in public.
 
 This is the core of everything we do. It's the "PyTorch for Agents."
 
-lar (The Lár Engine): The open-source, "glass box" framework. It's the tiny, powerful engine for building your agents.
+lar (The Lár Engine)
+
+
+<img src="https://raw.githubusercontent.com/snath-ai/.github/main/assets/lar-logo.png" width="90" alt="Lár Logo">
+
+
+The open-source, "glass box" framework. It's the tiny, powerful engine for building your agents.
+
 
 pip install lar-engine
+
 
 Give it a ⭐ to support the mission!
 
@@ -65,17 +48,22 @@ Give it a ⭐ to support the mission!
 
 These are live, interactive Streamlit apps built with lar.
 
-rag-demo (Live Demo): A self-correcting RAG agent that uses a local FAISS database and a "Critique Loop" to refine its own answers.
+rag-demo
 
-See the code snath-ai/rag-demo
 
-customer-support-demo (Live Demo): A multi-agent orchestrator that uses a "Triage Agent" to route tasks to specialized "Billing" or "Tech Support" agents.
+A self-correcting RAG agent that uses a local FAISS database and a "Critique Loop" to refine its own answers.
 
-See the code snath-ai/customer-support-demo
+customer-support-demo
+
+
+A multi-agent orchestrator that uses a "Triage Agent" to route tasks to specialized "Billing" or "Tech Support" agents.
 
 3. The Product (Commercial)
 
-Snath.ai: Our commercial, closed-source platform (currently in development). Snath.ai is the "Datadog for AI Agents"—a scalable, multi-user dashboard for deploying, auditing, and managing your lar agents in production.
+Snath.ai
+
+
+Our commercial, closed-source platform (currently in development). Snath.ai is the "Datadog for AI Agents"—a scalable, multi-user dashboard for deploying, auditing, and managing your lar agents in production.
 
 snath-app (Frontend): (Private) The React/Vite frontend for the Snath.ai platform.
 
