@@ -12,7 +12,7 @@
   <a href="https://pypi.org/project/lar-engine/">
     <img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/lar-engine?style=for-the-badge&color=blueviolet">
   </a>
-  <a href="https://github.com/snath-ai/lar/blob/main/LICENSE">
+  <a href="https://github.com/snath-ai/.github/LICENSE">
     <img alt="GitHub - License" src="https://img.shields.io/github/license/snath-ai/lar?style=for-the-badge&color=green">
   </a>
   <a href="https://www.linkedin.com/company/snathai/">
