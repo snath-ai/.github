@@ -38,11 +38,14 @@ Snath.ai aims to solve this by providing a **glass‑box alternative**—a frame
 
 ---
 
-# The Lár Engine (Open Source)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/snath-ai/.github/main/assets/lar-logo.png" width="80" alt="Lár Logo" />
 </p>
+---
+
+# The Lár Engine (Open Source)
+
 
 Lár is the lightweight, open‑source engine that powers all Snath.ai agents. It embraces a deterministic, define‑by‑run design philosophy that emphasizes clarity and reliability.
 
