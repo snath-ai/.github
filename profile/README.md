@@ -9,9 +9,9 @@
 
 # Introduction
 
-Snath.ai™ is built on a simple belief: modern AI systems should not be opaque, unpredictable, or impossible to audit. They should be reliable, inspectable, and engineered with the same rigor expected from production‑grade software systems.
+SnathAI™ is built on a simple belief: modern AI systems should not be opaque, unpredictable, or impossible to audit. They should be reliable, inspectable, and engineered with the same rigor expected from production‑grade software systems.
 
-To achieve this, Snath.ai™ introduces the **[Lár Engine](https://github.com/snath-ai/lar)**, a minimal and deterministic execution engine for building and orchestrating AI agents and pipelines. Lár provides full transparency into the execution process, enabling developers to deploy AI systems that behave consistently and can be traced and audited in detail.
+To achieve this, SnathAI™ introduces the **[Lár Engine](https://github.com/snath-ai/lar)**, a minimal and deterministic execution engine for building and orchestrating AI agents and pipelines. Lár provides full transparency into the execution process, enabling developers to deploy AI systems that behave consistently and can be traced and audited in detail.
 
 ---
 
@@ -19,7 +19,7 @@ To achieve this, Snath.ai™ introduces the **[Lár Engine](https://github.com/s
 
 Most current agent frameworks operate as black boxes. When failures occur, debugging becomes guesswork and system reliability suffers. The lack of visibility makes it difficult for engineering teams to trust these frameworks in critical production environments.
 
-Snath.ai™ aims to solve this by providing a **glass‑box alternative**—a framework where every step, mutation, and decision is traceable.
+SnathAI™ aims to solve this by providing a **glass‑box alternative**—a framework where every step, mutation, and decision is traceable.
 
 ---
 
@@ -32,7 +32,7 @@ Snath.ai™ aims to solve this by providing a **glass‑box alternative**—a fr
 # The Lár Engine (Open Source)
 
 
-Lár is the lightweight, open‑source engine that powers all Snath.ai™ agents. It embraces a deterministic, define‑by‑run design philosophy that emphasizes clarity and reliability.
+Lár is the lightweight, open‑source engine that powers all SnathAI™ agents. It embraces a deterministic, define‑by‑run design philosophy that emphasizes clarity and reliability.
 
 ## Key Characteristics
 
@@ -58,7 +58,7 @@ pip install lar-engine
 
 # Demonstration Applications
 
-Snath.ai™ provides a set of demonstration applications that showcase the practical capabilities of the Lár Engine.
+SnathAI™ provides a set of demonstration applications that showcase the practical capabilities of the Lár Engine.
 
 ### Retrieval‑Augmented Generation (RAG) Demonstration  
 A fully transparent RAG pipeline featuring FAISS retrieval, a critique‑improve loop, and consistent, repeatable execution.
@@ -70,9 +70,9 @@ These demonstrations highlight how deterministic orchestration improves reliabil
 
 ---
 
-# Snath.ai™ Platform (Commercial)
+# SnathAI™ Platform (Commercial)
 
-The Snath.ai™ commercial platform extends the open‑source Lár Engine with enterprise‑grade capabilities for deployment, monitoring, and operational management of agent‑based systems.
+The SnathAI™ commercial platform extends the open‑source Lár Engine with enterprise‑grade capabilities for deployment, monitoring, and operational management of agent‑based systems.
 
 ## Platform Components
 
@@ -92,7 +92,7 @@ The Snath.ai™ commercial platform extends the open‑source Lár Engine with e
 
 # Vision
 
-Snath.ai™ aims to become the industry standard for transparent, deterministic, and production‑focused AI systems.  
+SnathAI™ aims to become the industry standard for transparent, deterministic, and production‑focused AI systems.  
 By eliminating black‑box abstractions, we enable developers to build systems they can understand, verify, and trust.
 
 For updates, follow us on LinkedIn and star our repositories to support the mission.
