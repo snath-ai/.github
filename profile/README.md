@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/snath-ai/.github/main/assets/snath-logo.png" width="120" alt="Snath.ai Logo" />
 </p>
 <h1 align="center">SnathAI™</h1>
-<p align="center"><em>A transparent, auditable, and production‑ready framework for building modern AI systems.</em></p>
+<p align="center"><em>SnathAI- Agent Engineering, Reimagined</em></p>
 
 ---
 
@@ -68,6 +68,8 @@ An orchestrated multi‑agent system where a Triage Agent delegates tasks to spe
 These demonstrations highlight how deterministic orchestration improves reliability and debugging.
 
 ---
+
+Get Started in 3 Minutes [https://docs.snath.ai/getting-started/](https://docs.snath.ai/getting-started/)
 
 # SnathAI™ Platform (Commercial)
 
