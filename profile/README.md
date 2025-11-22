@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/snath-ai/.github/main/assets/snath-logo.png" width="120" alt="Snath.ai Logo" />
+  <img src="https://raw.githubusercontent.com/snath-ai/.github/main/assets/snath-logo.png" width="120" alt="SnathAI™ Logo" />
 </p>
 <h1 align="center">SnathAI™</h1>
 <p align="center"><em>Agent Engineering, Reimagined.</em></p>
