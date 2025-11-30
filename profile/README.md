@@ -35,6 +35,11 @@ We provide the architectural primitives to build agents where every step, mutati
 | :--- | :--- |
 | **[Lár Engine](https://github.com/snath-ai/lar)** | The lightweight, deterministic execution engine powering all SnathAI agents. Designed as the "PyTorch for Agents," it prioritizes explicit control flow and complete auditability over "magic" abstractions. |
 
+### Platform & Infrastructure
+| Project | Description |
+| :--- | :--- |
+| **[Snath Cloud API](https://github.com/snath-ai/snath-cloud-api)** | The enterprise backend for the SnathAI platform, handling secure orchestration, state management, and multi-tenant agent deployment. |
+| **[Snath Website](https://github.com/snath-ai/snath-website)** | The official portal for SnathAI, providing access to the dashboard, documentation, and community resources. |
 
 ### Demonstrations
 Explore practical, production-ready applications of the Lár Engine:
@@ -70,5 +75,5 @@ Refer to our [Getting Started Guide](https://docs.snath.ai/getting-started/) to 
 All SnathAI open-source projects, including the Lár Engine, are licensed under the **Apache License 2.0**. This ensures you can use, modify, and distribute our software in personal, academic, or commercial projects with confidence.
 
 <div align="center">
-  <p>Engineered by the SnathAI Team</p>
+  <p>Built with ❤️ by the SnathAI Team</p>
 </div>
