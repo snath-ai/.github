@@ -1,100 +1,67 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/snath-ai/.github/main/assets/snath-logo.png" width="120" alt="SnathAI™ Logo" />
-</p>
-<h1 align="center">SnathAI™</h1>
-<p align="center"><em>Agent Engineering, Reimagined.</em></p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/snath-ai/.github/main/assets/snath-logo.png" width="150" alt="SnathAI Logo" />
+  <h1>SnathAI™</h1>
+  <p><strong>Agent Engineering, Reimagined.</strong></p>
+  <p>The "Glass-Box" AI Framework for building reliable, auditable, and production-grade agent systems.</p>
+
+  [![Website](https://img.shields.io/badge/Website-snath.ai-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://snath.ai)
+  [![Documentation](https://img.shields.io/badge/Docs-Read_The_Docs-green?style=for-the-badge&logo=readthedocs&logoColor=white)](https://docs.snath.ai)
+  [![Discord](https://img.shields.io/badge/Discord-Join_Community-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/snath)
+  [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://github.com/snath-ai/lar/blob/main/LICENSE)
+</div>
 
 ---
 
-# Introduction
+## 🚀 Mission
 
-SnathAI™ is built on a simple belief: modern AI systems should not be opaque, unpredictable, or impossible to audit. They should be reliable, inspectable, and engineered with the same rigor expected from production‑grade software systems.
+**SnathAI™** is built on a simple belief: modern AI systems should not be opaque, unpredictable, or impossible to audit. They should be **Glass-Box** systems—reliable, inspectable, and engineered with the same rigor expected from production‑grade software.
 
-To achieve this, SnathAI™ introduces the **[Lár Engine](https://github.com/snath-ai/lar)**, a minimal and deterministic execution engine for building and orchestrating AI agents and pipelines. Lár provides full transparency into the execution process, enabling developers to deploy AI systems that behave consistently and can be traced and audited in detail.
-
----
-
-# The Problem: Black‑Box AI
-
-Most current agent frameworks operate as black boxes. When failures occur, debugging becomes guesswork and system reliability suffers. The lack of visibility makes it difficult for engineering teams to trust these frameworks in critical production environments.
-
-SnathAI™ aims to solve this by providing a **glass‑box alternative**—a framework where every step, mutation, and decision is traceable.
+We provide the tools to build agents where every step, mutation, and decision is traceable.
 
 ---
 
+## 🛠️ The Ecosystem
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/snath-ai/.github/main/assets/lar-logo.png" width="80" alt="Lár Logo" />
-</p>
-<p align="center"><em>Lár: The Pytorch for Agents</em></p>
+### 🧠 Core Engine
+| Project | Description |
+| :--- | :--- |
+| **[Lár Engine](https://github.com/snath-ai/lar)** | The lightweight, deterministic execution engine powering all SnathAI agents. Think "PyTorch for Agents". |
 
+### ☁️ Platform & Infrastructure
+| Project | Description |
+| :--- | :--- |
+| **[Snath Cloud API](https://github.com/snath-ai/snath-cloud-api)** | The backend API for the SnathAI commercial platform, handling orchestration and state management. |
+| **[Snath Website](https://github.com/snath-ai/snath-website)** | The official website and portal for SnathAI. |
 
-# The Lár Engine (Open Source)
+### 💡 Demos & Examples
+Explore practical applications of the Lár Engine:
 
+| Demo | Description |
+| :--- | :--- |
+| **[RAG Demo](https://github.com/snath-ai/rag-demo)** | A transparent RAG pipeline with FAISS retrieval and critique-improve loops. |
+| **[Customer Support](https://github.com/snath-ai/customer-support-demo)** | Multi-agent orchestration with Triage, Billing, and Tech Support agents. |
+| **[Code Repair](https://github.com/snath-ai/code-repair-demo)** | Automated CI/CD bot for fixing code issues. |
 
-Lár is the lightweight, open‑source engine that powers all SnathAI™ agents. It embraces a deterministic, define‑by‑run design philosophy that emphasizes clarity and reliability.
+---
 
-## Key Characteristics
+## ⚡ Quick Start
 
-- **Deterministic Execution**  
-  Each node executes sequentially with predictable behavior.
+Install the core engine to get started immediately:
 
-- **Define‑by‑Run Orchestration**  
-  No hidden abstractions. The execution flow is explicit and controlled.
-
-- **Structured State Logging**  
-  Every mutation and step is recorded, enabling complete audit trails.
-
-- **Minimal and Composable Primitives**  
-  Inspired by the simplicity and transparency of libraries like PyTorch.
-
-## Installation
-
-```
+```bash
 pip install lar-engine
 ```
 
----
-
-# Demonstration Applications
-
-SnathAI™ provides a set of demonstration applications that showcase the practical capabilities of the Lár Engine.
-
-### Retrieval‑Augmented Generation (RAG) Demonstration  
-A fully transparent RAG pipeline featuring FAISS retrieval, a critique‑improve loop, and consistent, repeatable execution.
-
-### Multi‑Agent Customer Support Demonstration  
-An orchestrated multi‑agent system where a Triage Agent delegates tasks to specialized Billing and Technical Support agents.
-
-These demonstrations highlight how deterministic orchestration improves reliability and debugging.
+Check out our [Getting Started Guide](https://docs.snath.ai/getting-started/) to build your first deterministic agent in minutes.
 
 ---
 
-Get Started in 3 Minutes [https://docs.snath.ai/getting-started/](https://docs.snath.ai/getting-started/)
+## 🤝 Community & Support
 
-# SnathAI™ Platform (Commercial)
+- **[Documentation](https://docs.snath.ai)**: Comprehensive guides and API references.
+- **[GitHub Issues](https://github.com/snath-ai/lar/issues)**: Report bugs or request features.
+- **[Discord](https://discord.gg/snath)**: Join the conversation with other agent engineers.
 
-The SnathAI™ commercial platform extends the open‑source Lár Engine with enterprise‑grade capabilities for deployment, monitoring, and operational management of agent‑based systems.
-
-## Platform Components
-
-- **Multi‑Tenant Dashboard**  
-  Centralized management of agent workflows across teams and organizations.
-
-- **End‑to‑End Auditing**  
-  Access complete, structured "flight logs" for every agent execution.
-
-- **Real‑Time Monitoring**  
-  Track execution performance and system health.
-
-- **Production‑Ready Orchestration**  
-  Scalable infrastructure built to support thousands of concurrent agent tasks.
-
----
-
-# Vision
-
-SnathAI™ aims to become the industry standard for transparent, deterministic, and production‑focused AI systems.  
-By eliminating black‑box abstractions, we enable developers to build systems they can understand, verify, and trust.
-
-For updates, follow us on LinkedIn and star our repositories to support the mission.
+<div align="center">
+  <p>Built with ❤️ by the SnathAI Team</p>
+</div>
