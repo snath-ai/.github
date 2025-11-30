@@ -1,67 +1,74 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/snath-ai/.github/main/assets/snath-logo.png" width="150" alt="SnathAI Logo" />
-  <h1>SnathAI™</h1>
+  <img src="https://raw.githubusercontent.com/snath-ai/.github/main/assets/snath-logo.png" width="180" alt="SnathAI Logo" />
+  <h1>SnathAI</h1>
   <p><strong>Agent Engineering, Reimagined.</strong></p>
-  <p>The "Glass-Box" AI Framework for building reliable, auditable, and production-grade agent systems.</p>
+  <p>The Glass-Box Framework for building reliable, auditable, and production-grade agent systems.</p>
 
-  [![Website](https://img.shields.io/badge/Website-snath.ai-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://snath.ai)
-  [![Documentation](https://img.shields.io/badge/Docs-Read_The_Docs-green?style=for-the-badge&logo=readthedocs&logoColor=white)](https://docs.snath.ai)
-  [![Discord](https://img.shields.io/badge/Discord-Join_Community-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/snath)
-  [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://github.com/snath-ai/lar/blob/main/LICENSE)
+  <a href="https://snath.ai">
+    <img src="https://img.shields.io/badge/Website-snath.ai-0052CC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" />
+  </a>
+  <a href="https://docs.snath.ai">
+    <img src="https://img.shields.io/badge/Docs-Read_The_Docs-339933?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Documentation" />
+  </a>
+  <a href="https://discord.gg/snath">
+    <img src="https://img.shields.io/badge/Discord-Join_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  </a>
+  <a href="https://github.com/snath-ai/lar/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-Apache_2.0-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="License" />
+  </a>
 </div>
 
 ---
 
-## 🚀 Mission
+## Mission
 
-**SnathAI™** is built on a simple belief: modern AI systems should not be opaque, unpredictable, or impossible to audit. They should be **Glass-Box** systems—reliable, inspectable, and engineered with the same rigor expected from production‑grade software.
+**SnathAI** is built on a fundamental belief: modern AI systems should not be opaque, unpredictable, or impossible to audit. They should be **Glass-Box** systems—reliable, inspectable, and engineered with the same rigor expected from enterprise software.
 
-We provide the tools to build agents where every step, mutation, and decision is traceable.
+We provide the architectural primitives to build agents where every step, mutation, and decision is traceable, deterministic, and verifiable.
 
 ---
 
-## 🛠️ The Ecosystem
+## The Ecosystem
 
-### 🧠 Core Engine
+### Core Engine
 | Project | Description |
 | :--- | :--- |
-| **[Lár Engine](https://github.com/snath-ai/lar)** | The lightweight, deterministic execution engine powering all SnathAI agents. Think "PyTorch for Agents". |
+| **[Lár Engine](https://github.com/snath-ai/lar)** | The lightweight, deterministic execution engine powering all SnathAI agents. Designed as the "PyTorch for Agents," it prioritizes explicit control flow and complete auditability over "magic" abstractions. |
 
-### ☁️ Platform & Infrastructure
-| Project | Description |
-| :--- | :--- |
-| **[Snath Cloud API](https://github.com/snath-ai/snath-cloud-api)** | The backend API for the SnathAI commercial platform, handling orchestration and state management. |
-| **[Snath Website](https://github.com/snath-ai/snath-website)** | The official website and portal for SnathAI. |
 
-### 💡 Demos & Examples
-Explore practical applications of the Lár Engine:
+### Demonstrations
+Explore practical, production-ready applications of the Lár Engine:
 
 | Demo | Description |
 | :--- | :--- |
-| **[RAG Demo](https://github.com/snath-ai/rag-demo)** | A transparent RAG pipeline with FAISS retrieval and critique-improve loops. |
-| **[Customer Support](https://github.com/snath-ai/customer-support-demo)** | Multi-agent orchestration with Triage, Billing, and Tech Support agents. |
-| **[Code Repair](https://github.com/snath-ai/code-repair-demo)** | Automated CI/CD bot for fixing code issues. |
+| **[RAG Pipeline](https://github.com/snath-ai/rag-demo)** | A transparent Retrieval-Augmented Generation pipeline featuring FAISS retrieval, critique-improve loops, and deterministic error handling. |
+| **[Customer Support](https://github.com/snath-ai/customer-support-demo)** | A multi-agent orchestration system where a Triage Agent delegates tasks to specialized Billing and Technical Support agents. |
+| **[Code Repair](https://github.com/snath-ai/code-repair-demo)** | An automated CI/CD bot that detects, analyzes, and repairs code issues using a deterministic workflow. |
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
-Install the core engine to get started immediately:
+Install the core engine to begin building deterministic agents:
 
 ```bash
 pip install lar-engine
 ```
 
-Check out our [Getting Started Guide](https://docs.snath.ai/getting-started/) to build your first deterministic agent in minutes.
+Refer to our [Getting Started Guide](https://docs.snath.ai/getting-started/) to build your first auditable agent in minutes.
 
 ---
 
-## 🤝 Community & Support
+## Community & Support
 
-- **[Documentation](https://docs.snath.ai)**: Comprehensive guides and API references.
-- **[GitHub Issues](https://github.com/snath-ai/lar/issues)**: Report bugs or request features.
-- **[Discord](https://discord.gg/snath)**: Join the conversation with other agent engineers.
+- **[Documentation](https://docs.snath.ai)**: Comprehensive guides, API references, and architectural deep dives.
+- **[GitHub Issues](https://github.com/snath-ai/lar/issues)**: Report bugs, request features, or contribute to the roadmap.
+- **[Discord](https://discord.gg/snath)**: Connect with other engineers building production-grade agent systems.
+
+## License
+
+All SnathAI open-source projects, including the Lár Engine, are licensed under the **Apache License 2.0**. This ensures you can use, modify, and distribute our software in personal, academic, or commercial projects with confidence.
 
 <div align="center">
-  <p>Built with ❤️ by the SnathAI Team</p>
+  <p>Engineered by the SnathAI Team</p>
 </div>
