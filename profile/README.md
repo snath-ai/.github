@@ -19,17 +19,17 @@
 
 ---
 
-## ⚡️ Featured: The Lár Engine
+## Featured: The Lár Engine
 
 **[GitHub Repository](https://github.com/snath-ai/lar) | [Documentation](https://docs.snath.ai)**
 
 **Lár** is the "PyTorch for Agents"—a lightweight, open-source execution engine designed for critical reliability.
 
-*   ✅ **Flight Recorder**: Built-in specialized audit logging.
-*   ✅ **Deterministic**: No "magic" loops or hidden prompts.
-*   ✅ **Production Ready**: Used in healthcare, finance, and defense.
+*   **Flight Recorder**: Built-in specialized audit logging.
+*   **Deterministic**: No "magic" loops or hidden prompts.
+*   **Production Ready**: Used in healthcare, finance, and defense.
 
-👉 **[Start Building with Lár](https://github.com/snath-ai/lar)**
+**[Start Building with Lár](https://github.com/snath-ai/lar)**
 
 ---
 
