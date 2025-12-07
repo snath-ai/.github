@@ -1,79 +1,65 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/snath-ai/.github/main/assets/snath-logo.png" width="180" alt="SnathAI Logo" />
   <h1>SnathAI</h1>
-  <p><strong>Agent Engineering, Reimagined.</strong></p>
-  <p>The Glass-Box Framework for building reliable, auditable, and production-grade agent systems.</p>
-
+  <p><strong>The GxP-Aligned Standard for Enterprise AI Agents.</strong></p>
+  
   <a href="https://snath.ai">
     <img src="https://img.shields.io/badge/Website-snath.ai-0052CC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" />
   </a>
   <a href="https://docs.snath.ai">
-    <img src="https://img.shields.io/badge/Docs-Read_The_Docs-339933?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Documentation" />
+    <img src="https://img.shields.io/badge/Documentation-Official-339933?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Documentation" />
   </a>
-  <a href="https://discord.gg/snath">
-    <img src="https://img.shields.io/badge/Discord-Join_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-  </a>
-  <a href="https://github.com/snath-ai/lar/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-Apache_2.0-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="License" />
+  <a href="https://snath.ai/enterprise">
+    <img src="https://img.shields.io/badge/Enterprise-Platform-4B0082?style=for-the-badge&logo=fortinet&logoColor=white" alt="Enterprise" />
   </a>
 </div>
 
 ---
 
-## Mission
+## The Platform
 
-**SnathAI** is built on a fundamental belief: modern AI systems should not be opaque, unpredictable, or impossible to audit. They should be **Glass-Box** systems—reliable, inspectable, and engineered with the same rigor expected from enterprise software.
+**SnathAI** builds the infrastructure for **Glass-Box Artificial Intelligence**. We enable enterprises to deploy autonomous agents that are deterministic, auditable, and compliant with rigorous standards like **FDA 21 CFR Part 11**.
 
-We provide the architectural primitives to build agents where every step, mutation, and decision is traceable, deterministic, and verifiable.
+### Open Source
+| Component | Description |
+| :--- | :--- |
+| **[Lár Engine](https://github.com/snath-ai/lar)** | The "Flight Recorder" for AI Agents. A deterministic graph engine that logs every state change, decision, and cost. Free and Open Source. |
+
+### Enterprise
+| Component | Description |
+| :--- | :--- |
+| **[Snath Enterprise](https://snath.ai/enterprise)** | **"The Bunker"**. A self-hosted, air-gapped platform giving you a specialized runtime with **HMAC-Signed Audit Trails**, **Kubernetes Orchestration**, and **Validation Packs**. |
+| **[Snath Cloud](https://snath.ai/cloud)** | **"The Hive"**. Managed serverless infrastructure for deploying and scaling millions of agent executions without ops overhead. |
 
 ---
 
-## The Ecosystem
+## Why SnathAI?
 
-### Core Engine
-| Project | Description |
-| :--- | :--- |
-| **[Lár Engine](https://github.com/snath-ai/lar)** | The lightweight, deterministic execution engine powering all SnathAI agents. Designed as the "PyTorch for Agents," it prioritizes explicit control flow and complete auditability over "magic" abstractions. |
+Most agent frameworks are **Black Boxes**—great for demos, impossible to debug in production. We solve the **"Black Box Tax"** by focusing on:
 
-### Platform & Infrastructure
-| Project | Description |
-| :--- | :--- |
-| **[Snath Cloud API](https://github.com/snath-ai/snath-cloud-api)** | The enterprise backend for the SnathAI platform, handling secure orchestration, state management, and multi-tenant agent deployment. |
-| **[Snath Website](https://github.com/snath-ai/snath-website)** | The official portal for SnathAI, providing access to the dashboard, documentation, and community resources. |
-
-### Demonstrations
-Explore practical, production-ready applications of the Lár Engine:
-
-| Demo | Description |
-| :--- | :--- |
-| **[RAG Pipeline](https://github.com/snath-ai/rag-demo)** | A transparent Retrieval-Augmented Generation pipeline featuring FAISS retrieval, critique-improve loops, and deterministic error handling. |
-| **[Customer Support](https://github.com/snath-ai/customer-support-demo)** | A multi-agent orchestration system where a Triage Agent delegates tasks to specialized Billing and Technical Support agents. |
-| **[Code Repair](https://github.com/snath-ai/code-repair-demo)** | An automated CI/CD bot that detects, analyzes, and repairs code issues using a deterministic workflow. |
+1.  **Deterministic Control**: No "magic" loops. You define the graph; we run it exactly as specified.
+2.  **Forensic Audibility**: Every token, every tool call, and every error is logged to an immutable ledger.
+3.  **Regulatory Alignment**: Architecture designed from day one for regulated industries (Healthcare, Finance, Defense).
 
 ---
 
-## Quick Start
+## Community
 
-Install the core engine to begin building deterministic agents:
-
-```bash
-pip install lar-engine
-```
-
-Refer to our [Getting Started Guide](https://docs.snath.ai/getting-started/) to build your first auditable agent in minutes.
+- **[Discord Community](https://discord.gg/snath)**: Join 2,000+ engineers building production agents.
+- **[Documentation](https://docs.snath.ai)**: Full API references and manuals.
+- **[GitHub Issues](https://github.com/snath-ai/lar/issues)**: Submit bugs and feature requests.
 
 ---
 
-## Community & Support
+## Legal & Disclaimer
 
-- **[Documentation](https://docs.snath.ai)**: Comprehensive guides, API references, and architectural deep dives.
-- **[GitHub Issues](https://github.com/snath-ai/lar/issues)**: Report bugs, request features, or contribute to the roadmap.
-- **[Discord](https://discord.gg/snath)**: Connect with other engineers building production-grade agent systems.
+**SnathAI™** and **Lár™** are trademarks of SnathAI, Inc.
 
-## License
+The Lár Engine (Open Source) is provided "as is" without warranty of any kind. While the architecture is **GxP-Aligned**, use of the open-source engine in regulated environments (e.g., FDA, EMA, ISO) does **not** automatically confer compliance.
+Users are responsible for their own system validation (IQ/OQ/PQ) unless using certified **Snath Enterprise** binaries and validation packs.
 
-All SnathAI open-source projects, including the Lár Engine, are licensed under the **Apache License 2.0**. This ensures you can use, modify, and distribute our software in personal, academic, or commercial projects with confidence.
+---
 
 <div align="center">
-  <p>Built with ❤️ by the SnathAI Team</p>
+  <p>© 2025 SnathAI, Inc. All rights reserved.</p>
 </div>
