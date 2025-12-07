@@ -16,6 +16,23 @@
 
 ---
 
+
+---
+
+## ⚡️ Featured: The Lár Engine
+
+**[GitHub Repository](https://github.com/snath-ai/lar) | [Documentation](https://docs.snath.ai)**
+
+**Lár** is the "PyTorch for Agents"—a lightweight, open-source execution engine designed for critical reliability.
+
+*   ✅ **Flight Recorder**: Built-in specialized audit logging.
+*   ✅ **Deterministic**: No "magic" loops or hidden prompts.
+*   ✅ **Production Ready**: Used in healthcare, finance, and defense.
+
+👉 **[Start Building with Lár](https://github.com/snath-ai/lar)**
+
+---
+
 ## The Platform
 
 **SnathAI** builds the infrastructure for **Glass-Box Artificial Intelligence**. We enable enterprises to deploy autonomous agents that are deterministic, auditable, and compliant with rigorous standards like **FDA 21 CFR Part 11**.
@@ -45,7 +62,7 @@ Most agent frameworks are **Black Boxes**—great for demos, impossible to debug
 
 ## Community
 
-- **[Discord Community](https://discord.gg/snath)**: Join 2,000+ engineers building production agents.
+- **[Discord Community](https://discord.gg/snath)**: Join the community of engineers building production agents.
 - **[Documentation](https://docs.snath.ai)**: Full API references and manuals.
 - **[GitHub Issues](https://github.com/snath-ai/lar/issues)**: Submit bugs and feature requests.
 
