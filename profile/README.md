@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/snath-ai/.github/main/assets/snath-logo.png" width="180" alt="Lár Engine" />
+  <img src="https://raw.githubusercontent.com/snath-ai/.github/main/assets/lar-logo.png" width="180" alt="Lár Engine" />
   <h1>Lár Engine</h1>
   <p><strong>The "Glass Box" Agent Orchestration Framework.</strong></p>
   
