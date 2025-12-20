@@ -22,6 +22,7 @@
 *   **Deterministic**: Reproducible execution paths.
 *   **Auditable**: Every step is logged to an immutable JSON flight plan.
 *   **Air-Gap Capable**: Runs completely offline.
+*   **Model Agnostic**: Supports 100+ models (OpenAI, Anthropic, Gemini) and **Local LLMs** (Ollama, LM Studio) via **LiteLLM**.
 
 ---
 
